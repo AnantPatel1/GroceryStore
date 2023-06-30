@@ -1,0 +1,36 @@
+.parallax {
+  background-image: url("C:\Users\91830\OneDrive\Desktop\Grocery\src\Assets\side-view-basket-plate-full-vegetables-as-peppers-broccoli-tomatoes-black-surface-maroon-surface.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.top-left-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.center-text h1 {
+  font-size: 3rem;
+}
+
+.center-text h2 {
+  font-size: 1.5rem;
+}

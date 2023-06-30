@@ -1,0 +1,33 @@
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  flex-basis: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.price-label {
+  text-align: center;
+}
+
+.image-container {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-basis: 100%;
+  }
+}
