@@ -1,3 +1,27 @@
+.AboutUs {
+  background-color: green;
+  height: 705px;
+  padding: 5%;
+}
 .aboutUsImg {
-  width: 10rem;
+  width: 20rem;
+  height: 100%;
+  border-radius: 30px;
+}
+.heading {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: start;
+}
+.description {
+  font-size: 20px;
+  color: white;
+  text-align: start;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 388px) {
+  .aboutUsImg {
+    width: 15rem;
+  }
 }
