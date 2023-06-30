@@ -1,0 +1,29 @@
+.headers {
+  position: relative;
+  object-fit: fill;
+  height: 62rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421138.jpg?t=st=1688038262~exp=1688038862~hmac=416adcbb7c7a6a32aa86ad7e0eb6c138375ab50886c4a9c466042192780c9fce");
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+}
+
+.textContainer {
+  text-align: center;
+  width: 28rem;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 25px;
+}
