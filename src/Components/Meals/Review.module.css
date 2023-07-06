@@ -1,0 +1,25 @@
+.review {
+  width: 300px;
+  aspect-ratio: 1;
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px grey;
+  position: relative;
+  /* left: 30px; */
+}
+.review img {
+  /* margin: 0 auto; */
+  position: absolute;
+  left: 35%;
+  top: 20px;
+  height: 90px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.review p {
+  padding: 5px;
+  position: absolute;
+  top: 150px;
+  font-size: 15px;
+  font-weight: 200;
+  left: 0;
+}
