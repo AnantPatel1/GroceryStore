@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.backimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://img.freepik.com/free-photo/wooden-box-full-fresh-vegetables-marble_114579-43507.jpg?size=626&ext=jpg&uid=R108449048&ga=GA1.2.495900032.1686914931&semt=ais");
+  /* position: relative; */
+}
+
+.box1 {
+  width: 600px;
+  height: 400px;
+  /* margin: 10px; */
+}
+.box2 {
+  width: 800px;
+  height: 400px;
+  /* margin: 10px; */
+  margin-left: 100px;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  /* text-align: center; */
+  font-size: 40px;
+}
+.box2 ul {
+  margin-top: 20px;
+}
+.box2 ul li {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.box2 button {
+  position: absolute;
+  background-color: aqua;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  left: 30%;
+}
+.box2 button:hover {
+  transform: translateY(2px);
+}
+/* Media query for smaller screens */
+@media (max-width: 770px) {
+  .container {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .box2 {
+    width: auto;
+    margin: 20px auto;
+  }
+  .header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box2 ul li {
+    font-size: 25px;
+  }
+
+  header {
+    font-size: 35px;
+  }
+}
+@media (max-width: 590px) {
+  .box2 ul li {
+    font-size: 20px;
+  }
+
+  header {
+    font-size: 30px;
+  }
+}

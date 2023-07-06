@@ -1,20 +1,27 @@
 import React from "react";
 import classes from "./AboutUs.module.css";
 import image from "../../Assets/top-view-assortment-vegetables-paper-bag.jpg";
-import Aos from "aos";
-// import "aos/dist/aos.css";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
-  Aos.init();
-
   return (
     <div className={classes.AboutUs}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6" data-aos="fade-right">
+          <motion.div
+            className="col-lg-6"
+            initial={{ opacity: 0, scale: 1, translateX: "-200px" }}
+            whileInView={{ opacity: 1, scale: 1, translateX: "0px" }}
+            transition={{ duration: 0.5 }}
+          >
             <img className={classes.image} src={image} alt="Img" />
-          </div>
-          <div className="col-lg-6" data-aos="fade-left">
+          </motion.div>
+          <motion.div
+            className="col-lg-6"
+            initial={{ opacity: 0, scale: 1, translateX: "200px" }}
+            whileInView={{ opacity: 1, scale: 1, translateX: "0px" }}
+            transition={{ duration: 0.5 }}
+          >
             <h2>About Us</h2>
             <p>
               At Freshlo, we are passionate about delivering the freshest
@@ -34,7 +41,7 @@ const AboutUs = () => {
               satisfaction, Freshlo is your trusted partner for all your grocery
               needs.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
