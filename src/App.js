@@ -5,6 +5,8 @@ import Working from "./Components/AboutUs/Working";
 import Pricing from "./Components/Pricing/Pricing";
 import Boxes from "./Components/Meals/Boxes";
 import Review from "./Components/Meals/Review";
+import Experience from "./Components/Meals/Experience";
+import Footer from "./Components/Layout.js/Footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,8 @@ function App() {
       <Pricing />
       <Boxes />
       <Review />
+      <Experience />
+      <Footer />
     </div>
   );
 }
