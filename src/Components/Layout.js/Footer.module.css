@@ -1,0 +1,85 @@
+.footer {
+  height: 24rem;
+  background-color: #100a30;
+}
+.connections {
+  margin-top: 2rem;
+}
+.connections p {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 600;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+li {
+  margin: 4px;
+}
+.copyright {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+.copyright p {
+  color: white;
+}
+.icon {
+  color: #ffae0e;
+}
+.SocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SocialMedia a {
+  height: 3rem;
+  width: 3rem;
+  margin: 16px 12px 3px 7px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialIcon {
+  color: black;
+}
+.SocialMedia a:hover {
+  cursor: pointer;
+  background-color: #100a30;
+  border: 2px solid white;
+}
+.socialIcon:hover {
+  color: #ffae0e;
+}
+.horizontalruler {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ruler {
+  width: 80%;
+  color: white;
+}
+@media screen and (max-width: 577px) {
+  .footer {
+    height: 36rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .footer {
+    height: 38rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .footer {
+    height: 45rem;
+  }
+}
