@@ -12,7 +12,7 @@ const Pricing = () => {
           whileInView={{ opacity: 1, scale: 1, translateX: "0px" }}
           transition={{ duration: 0.5 }}
         >
-          <a className="price-label">Price: $10</a>
+          <button className="price-label">Price: $10</button>
           <button className="button">Buy Now</button>
         </motion.div>
       </div>
@@ -24,7 +24,7 @@ const Pricing = () => {
           whileInView={{ opacity: 1, scale: 1, translateX: "0px" }}
           transition={{ duration: 0.5 }}
         >
-          <a className="price-label">Price: $20</a>
+          <button className="price-label">Price: $20</button>
 
           <button className="button">Buy Now</button>
         </motion.div>
@@ -37,7 +37,7 @@ const Pricing = () => {
           whileInView={{ opacity: 1, scale: 1, translateX: "0px" }}
           transition={{ duration: 0.5 }}
         >
-          <a className="price-label">Price: $30</a>
+          <button className="price-label">Price: $30</button>
 
           <button className="button">Buy Now</button>
         </motion.div>

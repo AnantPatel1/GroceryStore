@@ -35,52 +35,52 @@ export default function Footer() {
               Contact Info
             </p>
             <li>
-              <a href="#">
+              <button>
                 <CallIcon className={classes.icon} />
                 +91 XXX-XXXX-XXX
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#">
+              <button>
                 <EmailIcon className={classes.icon} />
                 xxx@gmail.com
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#">
+              <button>
                 <LocationOnIcon className={classes.icon} />
                 Location
-              </a>
+              </button>
             </li>
 
             <div className={classes.SocialMedia}>
-              <a href="">
+              <button>
                 <InstagramIcon
                   className={classes.socialIcon}
                   fontSize={"large"}
                 />
-              </a>
-              <a href="">
+              </button>
+              <button>
                 <TwitterIcon
                   className={classes.socialIcon}
                   fontSize={"large"}
                 />
-              </a>
-              <a href="">
+              </button>
+              <button>
                 <LinkedInIcon
                   className={classes.socialIcon}
                   fontSize={"large"}
                 />
-              </a>
-              <a href="">
+              </button>
+              <button>
                 <FacebookIcon
                   className={classes.socialIcon}
                   fontSize={"large"}
                 />
-              </a>
-              <a href="#">
+              </button>
+              <button>
                 <EmailIcon className={classes.socialIcon} fontSize={"large"} />
-              </a>
+              </button>
             </div>
           </div>
         </div>

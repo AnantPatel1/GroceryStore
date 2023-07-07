@@ -13,10 +13,11 @@
 }
 ul,
 li,
-a {
+button {
   text-decoration: none;
   color: white;
-  list-style-type: none;
+  background: none;
+  border: none;
 }
 li {
   margin: 4px;
@@ -37,7 +38,7 @@ li {
   justify-content: center;
   align-items: center;
 }
-.SocialMedia a {
+.SocialMedia button {
   height: 3rem;
   width: 3rem;
   margin: 16px 12px 3px 7px;
@@ -50,7 +51,7 @@ li {
 .socialIcon {
   color: black;
 }
-.SocialMedia a:hover {
+.SocialMedia button:hover {
   cursor: pointer;
   background-color: #100a30;
   border: 2px solid white;

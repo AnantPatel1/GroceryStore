@@ -48,11 +48,12 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .content-container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 200px;
   }
 
   .box {
