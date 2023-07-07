@@ -1,6 +1,7 @@
 .parallax {
-  background-image: url("C:\Users\91830\OneDrive\Desktop\Grocery\src\Assets\side-view-basket-plate-full-vegetables-as-peppers-broccoli-tomatoes-black-surface-maroon-surface.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/professional-image-fresh-vegetables-black-table_763713-3888.jpg?w=740");
   background-size: cover;
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   height: 100vh;
   display: flex;
