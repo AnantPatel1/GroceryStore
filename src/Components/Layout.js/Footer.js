@@ -35,19 +35,19 @@ export default function Footer() {
               Contact Info
             </p>
             <li>
-              <a href="www.google.com">
+              <a href="#">
                 <CallIcon className={classes.icon} />
                 +91 XXX-XXXX-XXX
               </a>
             </li>
             <li>
-              <a href="www.google.com">
+              <a href="#">
                 <EmailIcon className={classes.icon} />
-                anantpatel07012003@gmail.com
+                xxx@gmail.com
               </a>
             </li>
             <li>
-              <a href="www.google.com">
+              <a href="#">
                 <LocationOnIcon className={classes.icon} />
                 Location
               </a>
@@ -78,7 +78,7 @@ export default function Footer() {
                   fontSize={"large"}
                 />
               </a>
-              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+              <a href="#">
                 <EmailIcon className={classes.socialIcon} fontSize={"large"} />
               </a>
             </div>
